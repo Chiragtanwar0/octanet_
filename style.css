@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+.body{
+    background-color: rgba(0,0,0, 0,7) url("image.jpeg") center center
+    background-size: cover;
+    background-blend-mode:darken;
+    font-family : cambria, cochin,georgia,times,'times new roman'
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container h2{
+    color:orangered;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none ;
+    color:#fff;
+    padding: 10px;
+    transition: 3.5s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+    0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+.navbar .reservation{
+    padding: 8px;
+    background-color: orangered;
+}
+
+
+.content{
+    position: absolute;
+    color:#fff;
+    top: 40%;
+    left: 40%;
+}
+
+.content h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.content h2{
+    font-size: 50px;
+}
+
+.content p{
+    position: absolute;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.search{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 42%;
+}
+
+
+.search input{
+    outline: none;
+    border: none;
+    padding: 12px 40px;
+    size: 1cm;
+    width: 100%;
+}
+  
+
+.submit{
+    position: absolute;
+    text-align: center;
+    margin-left: 42%;
+    margin-top: 29%;
+    margin-left: 49%;
+}
+
+.submit a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: orangered;
+}
